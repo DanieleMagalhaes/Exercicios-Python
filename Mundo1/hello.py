@@ -1,0 +1,15 @@
+
+nome = input('Qual é o seu nome? ')
+print('\nOlá {}!' .format(nome) , ' Seja bem-vinda! \n')
+print ('Quando você nasceu?')
+dia = input ('DIA = ')
+mes = input ('MES = ')
+ano = input ('ANO = ')
+print ('Você nasceu no dia' , dia , 'de' , mes , 'de' , ano ,'. Correto?')
+
+print('\nVamos somar dois números?')
+num1 = int(input('PRIMEIRO NUMERO: '))
+num2 = int(input('SEGUNDO NUMERO: '))
+soma = num1 + (num2)
+#print('A soma dos numeros' , num1 , 'e' , num2 , 'é:' , soma)
+print ('A soma dos numeros {} e {} é {}' .format(num1, num2, soma))

@@ -1,0 +1,5 @@
+valor = int(input('Digite um valor: '))
+print('\nO antecessor de {} é {} e o seu sucessor é {}'.format(valor, (valor-1), (valor+1)))
+print('O dobro de {} é {} e o triplo é {}' .format(valor, (valor *2), (valor*3)))
+#print('A raiz quadrada de {} é {:.2f}' .format(valor, (valor**(1/2))))
+print('A raiz quadrada de {} é {:.2f}' .format(valor, pow(valor,(1/2))))
